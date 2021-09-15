@@ -1,0 +1,52 @@
+#name{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 139, 30);
+}
+#counter-container{
+    background-color: darkcyan;
+    border: 2px solid;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10px 20%;
+}
+.counter{
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 30px;
+}
+.number{
+    font-size: 40px;
+}
+#btn-container{
+    text-align: center;
+    margin: 20px 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    font-size: 30px;
+    background: none;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+#start{
+    border: 2px solid rgb(47, 255, 75);
+    background-color: rgb(2, 179, 26);
+    color: white;
+}
+#stop{
+    border: 2px solid tomato;
+    background-color: rgb(209, 35, 4);
+    color: white;
+}
+#restart{
+    border: 2px solid rgb(0, 217, 255);
+    background-color: rgb(0, 127, 185);
+    color: white;
+}
