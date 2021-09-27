@@ -6,7 +6,7 @@ const s1 = document.getElementById('s1');
 const s2 = document.getElementById('s2');
 const ml1 = document.getElementById('ml1');
 const ml2 = document.getElementById('ml2');
-
+let time;
 
 
 let ml01 = 0;
@@ -21,7 +21,8 @@ let h02 = 0;
 
 
 const start = () => {
-    const time = setInterval(() => {
+    clearInterval(time);
+    time = setInterval(() => {
         ml01++;
         if (ml01 > 9) {
             ml01 = 0;
